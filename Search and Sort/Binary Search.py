@@ -1,3 +1,5 @@
+# Binary Search
+
 numbers = [1, 2, 5, 6, 7, 9]
 target = int(input("Enter a target number: "))
 
@@ -21,4 +23,6 @@ index = binarySearch(numbers, target)
 
 if index != None:
     print(f"Target found at position {index}")
+else:
+    print("Target not in list.")
 #endif
